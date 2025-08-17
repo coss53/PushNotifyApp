@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1099040909308",
+    "project_id": "andoied-app-a19ff",
+    "storage_bucket": "andoied-app-a19ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099040909308:android:2cacb4fd9924f9c1feb479",
+        "android_client_info": {
+          "package_name": "app.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOM1Kl71bc31xPocXJzwrF1v1yhGpjo98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
