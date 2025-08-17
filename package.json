@@ -7,7 +7,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "eas-build-pre-install": "powershell -Command \"[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($env:GOOGLE_SERVICES_BASE64)) | Out-File -Encoding UTF8 android/app/google-services.json\""
   },
   "dependencies": {
     "expo": "~53.0.20",

@@ -2,9 +2,10 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
-    },
-    "preview": {},
-    "production": {}
+      "distribution": "internal",
+      "env": {
+        "GOOGLE_SERVICES_BASE64": "@secret:GOOGLE_SERVICES_BASE64"
+      }
+    }
   }
 }
