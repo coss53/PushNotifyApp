@@ -1,0 +1,4 @@
+node_modules/
+.env
+# keep google-services.json
+!android/app/google-services.json
